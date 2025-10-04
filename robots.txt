@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://kosmicpaperclip.github.io/sitemap.xml

@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kosmic Paperclip UG</title>
+<meta name="description" content="Digitale Beratung, IT-Services und Übersetzung – DSGVO-konform und effizient.">
+<link rel="icon" type="image/png" href="assets/img/favicon.png">
+<meta property="og:title" content="Kosmic Paperclip UG">
+<meta property="og:description" content="Digitale Beratung, IT-Services und Übersetzung.">
+<meta property="og:image" content="https://kosmicpaperclip.github.io/assets/img/og-image.png">
+<meta property="og:type" content="website">
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body class="starfield">
+<a href="#main" class="skip-link">Skip to content</a>
+<header role="banner">
+  <div class="header-inner navbar">
+    <a class="logo" href="index.html" aria-label="Kosmic Paperclip UG">
+      <img src="assets/img/logo-blue.png" alt="Kosmic Paperclip UG Logo">
+      <strong>Kosmic Paperclip UG</strong>
+    </a>
+    <nav role="navigation" aria-label="Primary">
+      <a href="index.html" data-i18n="nav_home" >Startseite</a>
+      <a href="leistungen.html" data-i18n="nav_services" >Leistungen</a>
+      <a href="about.html" data-i18n="nav_about" >Über uns</a>
+      <a href="referenzen.html" data-i18n="nav_projects" >Referenzen</a>
+      <a href="kontakt.html" data-i18n="nav_contact" style="text-decoration:underline;">Kontakt</a>
+      <a href="impressum.html" data-i18n="nav_impressum">Impressum</a>
+      <a href="datenschutz.html" data-i18n="nav_privacy">Datenschutz</a>
+      <a href="cookies.html" data-i18n="nav_cookies">Cookie-Einstellungen</a>
+    </nav>
+    <div class="lang-toggle" role="group" aria-label="Language toggle">
+      <button data-lang="de" class="active" aria-pressed="true">DE</button>
+      <button data-lang="en" aria-pressed="false">EN</button>
+    </div>
+  </div>
+</header>
+<main id="main">
+
+<section class="section">
+  <div class="container">
+    <h2 data-i18n="nav_contact">Kontakt</h2>
+    <form id="contact-form">
+      <div class="row">
+        <div>
+          <label for="name">Name</label>
+          <input id="name" name="name" required>
+        </div>
+        <div>
+          <label for="email">E-Mail</label>
+          <input id="email" type="email" name="email" required>
+        </div>
+      </div>
+      <div>
+        <label for="company">Firma (optional)</label>
+        <input id="company" name="company">
+      </div>
+      <div>
+        <label for="message">Nachricht</label>
+        <textarea id="message" name="message" rows="6" required></textarea>
+      </div>
+      <div>
+        <label><input type="checkbox" required> <span>Ich habe die Datenschutzerklärung gelesen und bin mit der Verarbeitung meiner Angaben zur Bearbeitung meiner Anfrage einverstanden. / I have read the privacy policy and agree to the processing of my data for handling this inquiry.</span></label>
+      </div>
+      <div class="ctas">
+        <button class="btn btn-primary" type="submit">Senden</button>
+        <a class="btn btn-secondary" href="mailto:CONTACT@DOMAIN.TLD">oder per E-Mail</a>
+      </div>
+      <p id="form-success" class="notice" style="display:none">Danke! Ihre Nachricht wurde lokal gesendet (Demo). In Produktion bitte Mail-Service konfigurieren.</p>
+    </form>
+    <script>
+      document.getElementById('contact-form').addEventListener('submit', function(e){
+        e.preventDefault();
+        document.getElementById('form-success').style.display='block';
+        this.reset();
+      });
+    </script>
+  </div>
+</section>
+
+</main>
+<footer role="contentinfo">
+  <div class="container">
+    <small class="small" data-i18n="footer_note">Kein Tracking ohne Einwilligung.</small>
+    <div>
+      <a href="impressum.html" data-i18n="nav_impressum">Impressum</a> · 
+      <a href="datenschutz.html" data-i18n="nav_privacy">Datenschutz</a> · 
+      <a href="cookies.html" data-i18n="nav_cookies">Cookie-Einstellungen</a>
+    </div>
+  </div>
+</footer>
+<script src="assets/js/lang-toggle.js"></script>
+<script src="assets/js/consent.js"></script>
+</body></html>
