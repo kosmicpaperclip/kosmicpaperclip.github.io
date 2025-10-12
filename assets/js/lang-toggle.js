@@ -20,6 +20,11 @@ const I18N = {
     home_services_3: "Übersetzungen (DE/EN)",
     home_services_4: "Datenschutz-Beratung (DSGVO-konform, praxisnah)",
     home_services_5: "IT-Services & Implementierung",
+    svc_title_consulting: "Beratung",
+    svc_title_techdocs: "Technische Dokumentation",
+    svc_title_translations: "Übersetzungen",
+    svc_title_privacy: "Datenschutz",
+    svc_title_itservices: "IT-Services",
     footer_note: "Kein Tracking ohne Einwilligung."
   },
   en: {
@@ -41,6 +46,11 @@ const I18N = {
     home_services_3: "Translations (DE/EN)",
     home_services_4: "Data & privacy guidance (GDPR-compliant)",
     home_services_5: "IT services & implementation",
+    svc_title_consulting: "Consulting",
+    svc_title_techdocs: "Technical Documentation",
+    svc_title_translations: "Translations",
+    svc_title_privacy: "Data Privacy",
+    svc_title_itservices: "IT Services",
     footer_note: "No tracking without consent."
   }
 };
