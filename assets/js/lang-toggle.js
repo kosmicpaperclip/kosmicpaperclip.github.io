@@ -16,9 +16,10 @@ const I18N = {
     cta_secondary: "Kontakt aufnehmen",
     home_services_title: "Leistungen",
     home_services_1: "Projekt- & Prozessberatung",
-    home_services_2: "IT-Services & Implementierung",
-    home_services_3: "Technische Dokumentation & Übersetzungen (DE/EN)",
+    home_services_2: "Technische Dokumentation",
+    home_services_3: "Übersetzungen (DE/EN)",
     home_services_4: "Datenschutz-Beratung (DSGVO-konform, praxisnah)",
+    home_services_5: "IT-Services & Implementierung",
     footer_note: "Kein Tracking ohne Einwilligung."
   },
   en: {
@@ -36,9 +37,10 @@ const I18N = {
     cta_secondary: "Contact us",
     home_services_title: "Services",
     home_services_1: "Project & process consulting",
-    home_services_2: "IT services & implementation",
-    home_services_3: "Technical documentation & translation (DE/EN)",
+    home_services_2: "Technical documentation",
+    home_services_3: "Translations (DE/EN)",
     home_services_4: "Data & privacy guidance (GDPR-compliant)",
+    home_services_5: "IT services & implementation",
     footer_note: "No tracking without consent."
   }
 };
