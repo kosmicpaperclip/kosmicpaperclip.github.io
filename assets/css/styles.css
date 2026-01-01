@@ -338,15 +338,23 @@ form .row {
   }
 }
 
-/* === About Page Hero Section === */
+/* === About Page Hero Section (Updated for Centering) === */
 .about-hero {
   background-image: url('../img/about-hero-background.png');
   background-size: cover;
   background-position: center;
-  padding: 5rem 1rem; /* Etwas Innenabstand */
+  padding: 5rem 1rem;
   border-radius: 1rem;
   margin: 1rem;
-  color: var(--kc-white); /* Standard-Textfarbe auf Weiß setzen */
+  color: var(--kc-white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center; /* Zentriert den gesamten Text */
+}
+
+.about-hero .container {
+  width: 100%;
 }
 
 .about-hero h2 {
@@ -359,5 +367,8 @@ form .row {
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
   font-size: 1.1rem;
   line-height: 1.7;
-  max-width: 750px; /* Begrenzt die Breite des Textes für bessere Lesbarkeit */
+  max-width: 750px;
+  margin-left: auto; /* Stellt sicher, dass der Block selbst zentriert ist */
+  margin-right: auto; /* Stellt sicher, dass der Block selbst zentriert ist */
 }
+
