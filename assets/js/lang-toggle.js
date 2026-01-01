@@ -30,7 +30,7 @@ const I18N = {
     svc_title_4: "4. Datenschutz-Beratung",
     svc_desc_4: "Wir beraten Sie praxisnah und verständlich, um die Einhaltung der DSGVO in Ihrem Unternehmen sicherzustellen.",
     svc_title_5: "5. IT-Services & Implementierung",
-    svc_desc_5: "Von der Software-Implementierung bis zum physischen Aufbau Ihrer IT-Infrastruktur vor Ort – wir bieten umfassende technische Unterstützung.",
+    svc_desc_5: "Von der Software-Implementierung bis zum Transport Ihrer IT-Infrastruktur zu Ihnen vor Ort – wir bieten umfassende technische Unterstützung.",
 
     svc_title_consulting: "Beratung",
     svc_title_techdocs: "Technische Dokumentation",
@@ -55,7 +55,6 @@ const I18N = {
     privacy_rights_text: "Sie haben im Rahmen der geltenden gesetzlichen Bestimmungen jederzeit das Recht auf unentgeltliche Auskunft über Ihre gespeicherten personenbezogenen Daten, deren Herkunft und Empfänger und den Zweck der Datenverarbeitung und ggf. ein Recht auf Berichtigung, Sperrung oder Löschung dieser Daten. Weiterhin haben Sie das Recht, die Einschränkung der Verarbeitung zu verlangen sowie das Recht auf Datenübertragbarkeit.<br>Sie haben zudem das Recht, sich bei einer Datenschutzaufsichtsbehörde über die Verarbeitung Ihrer personenbezogenen Daten durch uns zu beschweren.",
     privacy_legal_note_title: "Rechtlicher Hinweis",
     privacy_legal_note_text: "Diese englische Übersetzung dient nur der Übersicht. Rechtlich maßgeblich ist die deutsche Fassung.",
-
     // NEU: Übersetzungen für die "Über uns"-Seite
     about_ceo: "<strong>Geschäftsführung: Levke Derns</strong>",
     about_intro: "Als Gründerin und Geschäftsführerin der Kosmic Paperclip UG bin ich eine erfahrene Projektleiterin, technische Redakteurin und Übersetzerin mit einem internationalen Hintergrund in Technik, Recht und Sprache. Meine Stärke liegt darin, komplexe technische Prozesse und Softwaresysteme klar, strukturiert und anwenderfreundlich zu dokumentieren und auch Laien verständlich zu vermitteln. Mein Ziel ist es, als Brücke zwischen Fachexperten und Anwendern zu fungieren und so für reibungslose, verständliche und effiziente Prozesse zu sorgen.",
@@ -96,7 +95,7 @@ const I18N = {
     svc_title_4: "4. Data Privacy Consulting",
     svc_desc_4: "We provide practical and understandable advice to ensure GDPR compliance within your company.",
     svc_title_5: "5. IT Services & Implementation",
-    svc_desc_5: "From software implementation to the physical setup of your IT infrastructure on-site – we offer comprehensive technical support.",
+    svc_desc_5: "From software implementation to transporting your IT infrastructure to you – we offer comprehensive technical support.",
 
     svc_title_consulting: "Consulting",
     svc_title_techdocs: "Technical Documentation",
