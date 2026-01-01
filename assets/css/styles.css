@@ -309,3 +309,31 @@ form .row {
   padding: .5rem;
   z-index: 1000;
 }
+
+/* === About Page Layout === */
+.about-layout {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr; /* Linke Spalte schmaler, rechte breiter */
+  gap: 2.5rem; /* Größerer Abstand zwischen Bild und Text */
+  align-items: center;
+  margin-bottom: 3rem; /* Abstand nach unten zu den Kernkompetenzen */
+}
+
+.about-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 1rem; /* Abgerundete Ecken für das Bild */
+  box-shadow: 0 8px 24px rgba(11, 43, 76, .15);
+}
+
+.core-competencies {
+    margin-top: 3rem;
+}
+
+/* Responsive Anpassung für mobile Geräte */
+@media (max-width: 800px) {
+  .about-layout {
+    grid-template-columns: 1fr; /* Spalten untereinander anordnen */
+    gap: 2rem;
+  }
+}
