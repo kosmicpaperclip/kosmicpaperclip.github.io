@@ -337,3 +337,27 @@ form .row {
     gap: 2rem;
   }
 }
+
+/* === About Page Hero Section === */
+.about-hero {
+  background-image: url('../img/about-hero-background.png');
+  background-size: cover;
+  background-position: center;
+  padding: 5rem 1rem; /* Etwas Innenabstand */
+  border-radius: 1rem;
+  margin: 1rem;
+  color: var(--kc-white); /* Standard-Textfarbe auf Weiß setzen */
+}
+
+.about-hero h2 {
+  color: var(--kc-white);
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.about-hero .intro-text p {
+  color: var(--kc-white);
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  font-size: 1.1rem;
+  line-height: 1.7;
+  max-width: 750px; /* Begrenzt die Breite des Textes für bessere Lesbarkeit */
+}
