@@ -19,6 +19,19 @@ const I18N = {
     home_services_3: "Übersetzungen (DE/EN)",
     home_services_4: "Datenschutz-Beratung (DSGVO-konform, praxisnah)",
     home_services_5: "IT-Services & Implementierung",
+    
+        // Aktualisierte und neue Texte für die Leistungsseite
+    svc_title_1: "1. Projektmanagement & Prozessberatung",
+    svc_desc_1: "Wir steuern Ihre Projekte von der Planung bis zum erfolgreichen Abschluss und optimieren Ihre internen Abläufe für maximale Effizienz.",
+    svc_title_2: "2. Technische Dokumentation",
+    svc_desc_2: "Wir erstellen klare, verständliche und normgerechte Anleitungen, Handbücher und Dokumentationen für Ihre Produkte und Systeme.",
+    svc_title_3: "3. Übersetzungen (DE/EN)",
+    svc_desc_3: "Wir sorgen für präzise und kontextgerechte Fachübersetzungen Ihrer technischen und juristischen Dokumente zwischen Deutsch und Englisch.",
+    svc_title_4: "4. Datenschutz-Beratung",
+    svc_desc_4: "Wir beraten Sie praxisnah und verständlich, um die Einhaltung der DSGVO in Ihrem Unternehmen sicherzustellen.",
+    svc_title_5: "5. IT-Services & Implementierung",
+    svc_desc_5: "Von der Software-Implementierung bis zum physischen Aufbau Ihrer IT-Infrastruktur vor Ort – wir bieten umfassende technische Unterstützung.",
+
     svc_title_consulting: "Beratung",
     svc_title_techdocs: "Technische Dokumentation",
     svc_title_translations: "Übersetzungen",
@@ -72,6 +85,19 @@ const I18N = {
     home_services_3: "Translations (DE/EN)",
     home_services_4: "Data & privacy guidance (GDPR-compliant)",
     home_services_5: "IT services & implementation",
+
+        // Updated and new texts for the services page
+    svc_title_1: "1. Project Management & Process Consulting",
+    svc_desc_1: "We manage your projects from planning to successful completion and optimize your internal processes for maximum efficiency.",
+    svc_title_2: "2. Technical Documentation",
+    svc_desc_2: "We create clear, understandable, and compliant guides, manuals, and documentation for your products and systems.",
+    svc_title_3: "3. Translations (DE/EN)",
+    svc_desc_3: "We provide precise and contextually appropriate specialized translations of your technical and legal documents between German and English.",
+    svc_title_4: "4. Data Privacy Consulting",
+    svc_desc_4: "We provide practical and understandable advice to ensure GDPR compliance within your company.",
+    svc_title_5: "5. IT Services & Implementation",
+    svc_desc_5: "From software implementation to the physical setup of your IT infrastructure on-site – we offer comprehensive technical support.",
+
     svc_title_consulting: "Consulting",
     svc_title_techdocs: "Technical Documentation",
     svc_title_translations: "Translations",
