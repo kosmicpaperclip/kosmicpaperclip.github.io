@@ -103,8 +103,8 @@ const I18N = {
     about_core_1: "<strong>Digitalization & Project Management:</strong> Leading and managing digitalization projects, especially for public authorities and institutions, including the creation of budget and resource plans.",
     about_core_2: "<strong>Technical Writing & Documentation:</strong> Creating, maintaining, and developing technical and organizational documentation, from process analysis to terminology management.",
     about_core_3: "<strong>Business Development & Management:</strong> Successfully establishing operational procedures and scaling agile team structures in start-ups, including the optimization of processes in customer communication, accounting, and contract management.",
-    about_core_4: "<strong>Specialized Translations (DE ↔ EN):</strong> Precise translation of technical, legal, and software-related texts using CAT tools and quality assurance of machine translations.",
-    about_values: "<em>Values: Solution-Oriented • Reliability • Privacy by Design</em>"
+    about_core_4: "<strong>Specialized Translations (GER ↔ EN):</strong> Precise translation of technical, legal, and software-related texts using CAT tools and quality assurance of machine translations.",
+    about_values: "<em>Values: Solutions-Oriented • Reliability • Privacy by Design</em>"
   }
 };
 
