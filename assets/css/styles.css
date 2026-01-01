@@ -93,13 +93,13 @@ nav a:hover {
   color: #000;
 }
 
-/* === Hero Section mit Hintergrundbild (AKTUALISIERT) === */
+/* === Hero Section mit Hintergrundbild (Linksbündig - KORRIGIERT) === */
 .hero {
-  background-image: url('../img/hero-background.png'); /* Pfad zum Bild */
+  background-image: url('../img/hero-background.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  padding: 6rem 1rem;
+  padding: 6rem 2rem; /* Etwas mehr seitlicher Abstand */
   border-radius: 1rem;
   margin: 1rem;
 }
@@ -107,39 +107,36 @@ nav a:hover {
 .hero .container {
     display: flex; 
     flex-direction: column; 
-    align-items: center;
+    align-items: flex-start; /* ÄNDERUNG: Richtet alles links aus */
 }
 
-/* Textfarbe und Lesbarkeit im Hero-Bereich */
 .hero h1,
 .hero p {
   color: var(--kc-white);
-  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
-  text-align: center;
-  max-width: 800px;
-  margin-left: auto;
-  margin-right: auto;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.6); /* Etwas stärkerer Schatten für Kontrast */
+  text-align: left; /* ÄNDERUNG: Text linksbündig */
+  max-width: 650px; /* Etwas schmaler für besseren Zeilenumbruch */
 }
 
 .hero h1 {
-  font-size: clamp(2rem, 4vw, 3rem);
+  font-size: clamp(2.2rem, 4.5vw, 3.2rem); /* Etwas größer für mehr Wirkung */
   margin-top: 0;
 }
 
 .hero .intro {
   font-size: 1.1rem;
   color: var(--kc-white);
-  opacity: 0.9;
+  opacity: 0.95;
 }
 
-/* Buttons im Hero-Bereich */
 .hero .button-group {
   display: flex;
   gap: .75rem;
   margin-top: 1.5rem;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: flex-start; /* ÄNDERUNG: Richtet Buttons links aus */
 }
+
 
 /* === Button Styles (NEU & VERBESSERT) === */
 .button {
@@ -371,4 +368,3 @@ form .row {
   margin-left: auto; /* Stellt sicher, dass der Block selbst zentriert ist */
   margin-right: auto; /* Stellt sicher, dass der Block selbst zentriert ist */
 }
-
