@@ -93,33 +93,35 @@ nav a:hover {
   color: #000;
 }
 
-/* === Hero Section mit Hintergrundbild (Linksbündig - KORRIGIERT) === */
+/* === Hero Section mit Hintergrundbild (Komplett Linksbündig) === */
 .hero {
   background-image: url('../img/hero-background.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  padding: 6rem 2rem; /* Etwas mehr seitlicher Abstand */
+  padding: 6rem 3rem; /* WICHTIG: Der Abstand vom Rand wird jetzt hier gesteuert */
   border-radius: 1rem;
   margin: 1rem;
 }
 
+/* Diese Regel hebt das Zentrierverhalten des Containers NUR in der Hero-Sektion auf */
 .hero .container {
-    display: flex; 
-    flex-direction: column; 
-    align-items: flex-start; /* ÄNDERUNG: Richtet alles links aus */
+    margin: 0;
+    padding: 0;
+    max-width: none; 
 }
 
+/* Textfarbe und Lesbarkeit im Hero-Bereich */
 .hero h1,
 .hero p {
   color: var(--kc-white);
-  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.6); /* Etwas stärkerer Schatten für Kontrast */
-  text-align: left; /* ÄNDERUNG: Text linksbündig */
-  max-width: 650px; /* Etwas schmaler für besseren Zeilenumbruch */
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+  text-align: left;
+  max-width: 650px; /* Begrenzt die Zeilenlänge für gute Lesbarkeit */
 }
 
 .hero h1 {
-  font-size: clamp(2.2rem, 4.5vw, 3.2rem); /* Etwas größer für mehr Wirkung */
+  font-size: clamp(2.2rem, 4.5vw, 3.2rem);
   margin-top: 0;
 }
 
@@ -129,12 +131,13 @@ nav a:hover {
   opacity: 0.95;
 }
 
+/* Buttons im Hero-Bereich */
 .hero .button-group {
   display: flex;
   gap: .75rem;
   margin-top: 1.5rem;
   flex-wrap: wrap;
-  justify-content: flex-start; /* ÄNDERUNG: Richtet Buttons links aus */
+  justify-content: flex-start;
 }
 
 
